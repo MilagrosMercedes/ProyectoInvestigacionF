@@ -15,8 +15,11 @@ import base64
 
 
 st.set_page_config(page_title= "PROYECTO DE INVESTIGACIÓN FORMATIVA")
+def Grupo1_5():
+    st.markdown("# Main page 🎈")
+    st.sidebar.markdown("# Main page 🎈")
+    st.title("PROYECTO DE INVESTIGACIÓN FORMATIVA")
 
-st.title("PROYECTO DE INVESTIGACIÓN FORMATIVA")
 st.header('Universidad Nacional de San Agustín de Arequipa') 
 st.header("Escuela Profesional de Ingeniería de Telecomunicaciones")
 st.image("https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png",
